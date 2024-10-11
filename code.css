@@ -1,0 +1,12 @@
+/* Hide the default scrollbar */
+::-webkit-scrollbar {
+    width: 0.0em;
+    background: #272121;
+}
+
+/* Custom styling for the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background: -webkit-linear-gradient(transparent, #00777f);  /* Gradient for WebKit browsers */
+    background: linear-gradient(transparent, #00FFF7);           /* Fallback gradient */
+    border-radius: 50px;                                         /* Rounded scrollbar edges */
+}
